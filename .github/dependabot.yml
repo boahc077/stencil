@@ -31,3 +31,94 @@ updates:
         versions: ['>7.3.3']
       - dependency-name: '@types/inquirer'
         versions: ['>7.3.1']
+
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/browser-compile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/bundler/component-library
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/bundler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/bundler/vite-bundle-test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/end-to-end
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/hello-vdom
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/hello-world
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/ionic-app
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/jest-spec-runner
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/karma
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/karma/test-invisible-prehydration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/karma/test-sibling
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/performance
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/prerender-shadow
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/style-modes
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/todo-app
+    schedule:
+      interval: daily
